@@ -25,4 +25,4 @@ def generate(request: GenerateRequest):
         "message": "Pedido recebido pelo servidor de IA.",
         "prompt": request.prompt,
         "image_received": request.image_url is not None
-    }
+    } 
